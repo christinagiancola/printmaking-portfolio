@@ -1,6 +1,6 @@
 :root {
-  --primary: purple;
-  --secondary: darkblue;
-  --primary-invert: white;
-  --secondary-invert: white;
+	--primary: blue;
+	--secondary: darkblue;
+	--primary-invert: white;
+	--secondary-invert: white;
 }
