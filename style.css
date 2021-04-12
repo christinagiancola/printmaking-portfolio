@@ -1,14 +1,14 @@
 :root {
-	--primary: #0066ff;
+	--primary: #ee9b0c;
 	--secondary: #0a1f44;
 	--primary-invert: #fff;
 	--secondary-invert: #fff;
 
-	--gradient-primary: linear-gradient(230deg, #438dfc, #0063f7);
+	--gradient-primary: linear-gradient(230deg, #f0ac36, #ee9b0c);
 	--gradient-secondary: linear-gradient(230deg, #0a1f44, #020024);
 
 	/* DEFAULT COLOR OF TEXTS */
-	--text-primary: #0a1f44;
+	--text-primary: #393404;
 
 	/* FOR BUTTONS & INPUTS */
 	--elements-roundness: 10rem;
@@ -182,11 +182,16 @@ button:focus {
 	}
 }
 
+/*------------------------------*/
+/*-- NAV AND HERO --------------*/
+/*------------------------------*/
+
 .hero {
 	--hero-nav-height: 100px;
 	--dropdown-background: white;
-	--dropdown-text-color: var(--text-primary);
-	--block-background: linear-gradient(to top, rgb(0 0 0 / 3%), transparent);
+  --dropdown-text-color: var(--text-primary);
+  /* TODO background color might need to be moved to the root section? */
+	--block-background: rgb(255, 255, 255);
 	--block-text-color: var(--text-primary);
 	background: var(--block-background);
 	color: var(--block-text-color);
@@ -315,11 +320,11 @@ button:focus {
 .ft-menu__slider {
 	color: var(--dropdown-text-color);
 	background: var(--dropdown-background);
-	width: 80%;
+	width: 60%;
 	height: 100%;
 	overflow: hidden;
 	transform: translateX(-100%);
-	transition: 0.5s transform;
+	transition: 0.3s transform;
 }
 
 @media (min-width: 992px) {
@@ -347,7 +352,7 @@ button:focus {
 	font-size: 2rem;
 	margin: 1rem;
 	transform: translateX(100%);
-	transition: 0.5s transform;
+	transition: 0.3s transform;
 }
 
 @media (min-width: 992px) {
@@ -571,8 +576,6 @@ button:focus {
 	margin: 0 -1rem;
 	background: #fff;
 	box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.09);
-	/* ! Do not use width or height when using padding or bordercss(boxModel) */
-	/* TODO delete height when adding image here */
 	height: 500px;
 }
 
@@ -698,4 +701,71 @@ button:focus {
 		bottom: 0;
 		display: block;
 	}
+}
+
+/*------------------------------*/
+/*-- BLOCK QUOTE ---------------*/
+/*------------------------------*/
+
+.block-22 {
+  --block-background: white;
+  --block-text-color: var(--text-primary);
+  background: var(--block-background);
+  color: var(--block-text-color)
+}
+
+@media(min-width:992px) {
+  .testimonial-card-3 {
+    padding: 3rem
+  }
+}
+
+.testimonial-card-3__paragraph {
+  font-size: 1.1rem;
+  opacity: .95;
+  line-height: 1.7
+}
+
+@media(min-width:992px) {
+  .testimonial-card-3__paragraph {
+    width: 80%;
+    margin: auto
+  }
+}
+
+.testimonial-card-3__quote-svg {
+  color: var(--primary);
+  transform: scale(1.2)
+}
+
+.block-22-person__link {
+  color: inherit;
+  opacity: .7;
+  text-decoration: underline
+}
+
+.block-22-person__link:focus,
+.block-22-person__link:hover {
+  color: inherit;
+  text-decoration: underline;
+  opacity: 1
+}
+
+/*------------------------------*/
+/*-- IMAGE GALLERY -------------*/
+/*------------------------------*/
+.block-8-scr {
+  --space-between-blocks: 2rem;
+  --space-between-blocks-small-screens: 0rem;
+  --block-background: white;
+  --block-text-color: var(--text-primary);
+  background: var(--block-background);
+  color: var(--block-text-color)
+}
+
+.block-8-scr__img {
+  position: relative;
+  z-index: 1;
+  border-radius: 5px;
+  box-shadow: 0 10px 36px 0 rgba(0, 0, 0, .1)
 }
