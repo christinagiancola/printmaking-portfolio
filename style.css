@@ -518,8 +518,8 @@ button:focus {
 }
 
 .hero__body {
-	padding-top: 4rem;
-	padding-bottom: 9rem;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 	position: relative;
 	z-index: 1;
 }
