@@ -189,8 +189,8 @@ button:focus {
 .hero {
 	--hero-nav-height: 100px;
 	--dropdown-background: white;
-  --dropdown-text-color: var(--text-primary);
-  /* TODO background color might need to be moved to the root section? */
+	--dropdown-text-color: var(--text-primary);
+	/* TODO background color might need to be moved to the root section? */
 	--block-background: rgb(255, 255, 255);
 	--block-text-color: var(--text-primary);
 	background: var(--block-background);
@@ -234,7 +234,7 @@ button:focus {
 
 .hero-nav__link {
 	color: inherit;
-  opacity: .8;
+	opacity: 0.8;
 }
 
 .hero-nav__link:focus,
@@ -543,7 +543,9 @@ button:focus {
 	}
 
 	.hero__paragraph {
-		width: 80%;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
 	}
 }
 
@@ -561,7 +563,9 @@ button:focus {
 
 	.hero__paragraph {
 		font-size: 1.2rem;
-		width: 70%;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
 	}
 }
 
@@ -605,180 +609,180 @@ button:focus {
 /*------------------------------*/
 
 .block-11 {
-  --block-background: white;
-  --block-text-color: var(--text-primary);
-  background: var(--block-background);
-  color: var(--block-text-color)
+	--block-background: white;
+	--block-text-color: var(--text-primary);
+	background: var(--block-background);
+	color: var(--block-text-color);
 }
 
 .block-11__img {
-  border-radius: 10px
+	border-radius: 10px;
 }
 
 .card-1 {
-  height: 100%
+	height: 100%;
 }
 
 .card-1__title {
-  font-size: 1.3rem;
-  font-weight: 600;
-  line-height: 1.5
+	font-size: 1.3rem;
+	font-weight: 600;
+	line-height: 1.5;
 }
 
 .card-1__paragraph {
-  font-size: .95rem;
-  line-height: 1.6;
+	font-size: 0.95rem;
+	line-height: 1.6;
 }
 
 .mb-2-1rem {
-  margin-bottom: 2.1rem
+	margin-bottom: 2.1rem;
 }
 
 /*------------------------------*/
 /*-- IMAGE GALLERY -------------*/
 /*------------------------------*/
 .block-8-scr {
-  --space-between-blocks: 2rem;
-  --space-between-blocks-small-screens: 0rem;
-  --block-background: white;
-  --block-text-color: var(--text-primary);
-  background: var(--block-background);
-  color: var(--block-text-color)
+	--space-between-blocks: 2rem;
+	--space-between-blocks-small-screens: 0rem;
+	--block-background: white;
+	--block-text-color: var(--text-primary);
+	background: var(--block-background);
+	color: var(--block-text-color);
 }
 
 .block-8-scr__img {
-  position: relative;
-  z-index: 1;
-  border-radius: 5px;
-  box-shadow: 0 10px 36px 0 rgba(0, 0, 0, .1)
+	position: relative;
+	z-index: 1;
+	border-radius: 5px;
+	box-shadow: 0 10px 36px 0 rgba(0, 0, 0, 0.1);
 }
 
 /*------------------------------*/
 /*-- CONTACT FORM --------------*/
 /*------------------------------*/
 .block-28 {
-  --elements-roundness: 5px;
-  --block-background: white;
-  --block-text-color: var(--text-primary);
-  background-color: var(--block-background);
-  color: var(--block-text-color);
+	--elements-roundness: 5px;
+	--block-background: white;
+	--block-text-color: var(--text-primary);
+	background-color: var(--block-background);
+	color: var(--block-text-color);
 }
 
 .block-28__content-side,
 .block-28__form-side {
-  padding-top: 2rem;
-  padding-bottom: 4rem
+	padding-top: 2rem;
+	padding-bottom: 4rem;
 }
 
 .contact-form,
 .contact-info {
-  width: 90%;
-  margin: auto
+	width: 90%;
+	margin: auto;
 }
 
 .contact-info {
-  font-size: .9rem
+	font-size: 0.9rem;
 }
 
 .contact-form__title,
 .contact-info__title {
-  font-size: 2.2rem;
-  font-weight: 600
+	font-size: 2.2rem;
+	font-weight: 600;
 }
 
 .contact-info__paragraph {
-  font-size: 1.2rem;
-  line-height: 1.5
+	font-size: 1.2rem;
+	line-height: 1.5;
 }
 
 .contact-info__title-2 {
-  font-weight: 600
+	font-weight: 600;
 }
 
 .contact-form__paragraph {
-  font-size: 1.2rem;
-  line-height: 1.5;
-  width: 90%
+	font-size: 1.2rem;
+	line-height: 1.5;
+	width: 90%;
 }
 
 .contact-form__input {
-  color: var(--text-primary);
-  padding: .87rem 1.4rem;
-  border-radius: 5px;
-  border: 1px solid rgba(0, 0, 0, .1);
-  background: rgba(0, 0, 0, .01);
-  width: 100%;
-  margin-bottom: .87rem
+	color: var(--text-primary);
+	padding: 0.87rem 1.4rem;
+	border-radius: 5px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	background: rgba(0, 0, 0, 0.01);
+	width: 100%;
+	margin-bottom: 0.87rem;
 }
 
 textarea.contact-form__input {
-  height: 140px;
-  resize: none
+	height: 140px;
+	resize: none;
 }
 
 .contact-form__input:focus {
-  border: 1px solid var(--primary);
-  outline: 0;
-  box-shadow: none
+	border: 1px solid var(--primary);
+	outline: 0;
+	box-shadow: none;
 }
 
 .btn--loading {
-  opacity: 1;
-  cursor: progress;
-  position: relative;
-  overflow: hidden;
-  z-index: 1
+	opacity: 1;
+	cursor: progress;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
 }
 
 .btn--loading::after,
 .btn--loading::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
 }
 
 .btn--loading::before {
-  background: var(--primary);
-  width: 100%;
-  height: 100%;
-  z-index: 1
+	background: var(--primary);
+	width: 100%;
+	height: 100%;
+	z-index: 1;
 }
 
 @-webkit-keyframes spin {
-  0% {
-    -webkit-transform: rotate(0)
-  }
+	0% {
+		-webkit-transform: rotate(0);
+	}
 
-  100% {
-    -webkit-transform: rotate(360deg)
-  }
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
 }
 
 @keyframes spin {
-  0% {
-    transform: rotate(0)
-  }
+	0% {
+		transform: rotate(0);
+	}
 
-  100% {
-    transform: rotate(360deg)
-  }
+	100% {
+		transform: rotate(360deg);
+	}
 }
 
 .btn--loading::after {
-  margin: auto;
-  border: 2px solid transparent;
-  border-radius: 50%;
-  border-top: 2px solid var(--primary-invert);
-  width: 1.5rem;
-  height: 1.5rem;
-  -webkit-animation: spin .5s linear infinite;
-  animation: spin .5s linear infinite;
-  z-index: 2
+	margin: auto;
+	border: 2px solid transparent;
+	border-radius: 50%;
+	border-top: 2px solid var(--primary-invert);
+	width: 1.5rem;
+	height: 1.5rem;
+	-webkit-animation: spin 0.5s linear infinite;
+	animation: spin 0.5s linear infinite;
+	z-index: 2;
 }
 
 .h-100 {
-  height: 100% !important
+	height: 100% !important;
 }
