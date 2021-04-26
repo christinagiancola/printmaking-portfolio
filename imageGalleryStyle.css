@@ -1,0 +1,18 @@
+/*------------------------------*/
+/*-- IMAGE GALLERY -------------*/
+/*------------------------------*/
+.block-8-scr {
+	--space-between-blocks: 2rem;
+	--space-between-blocks-small-screens: 0rem;
+	--block-background: white;
+	--block-text-color: var(--text-primary);
+	background: var(--block-background);
+	color: var(--block-text-color);
+}
+
+.block-8-scr__img {
+	position: relative;
+	z-index: 1;
+	border-radius: 5px;
+	box-shadow: 0 10px 36px 0 rgba(0, 0, 0, 0.1);
+}
