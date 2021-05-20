@@ -1,0 +1,33 @@
+/*------------------------------*/
+/*-- ABOUT ME ------------------*/
+/*------------------------------*/
+
+.block-11 {
+	--block-background: white;
+	--block-text-color: var(--text-primary);
+	background: var(--block-background);
+	color: var(--block-text-color);
+}
+
+.block-11__img {
+	border-radius: 10px;
+}
+
+.card-1 {
+	height: 100%;
+}
+
+.card-1__title {
+	font-size: 1.3rem;
+	font-weight: 600;
+	line-height: 1.5;
+}
+
+.card-1__paragraph {
+	font-size: 0.95rem;
+	line-height: 1.6;
+}
+
+.mb-2-1rem {
+	margin-bottom: 2.1rem;
+}
