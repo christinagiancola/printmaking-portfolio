@@ -7,6 +7,6 @@
 	height: auto;
 }
 
-#main-content-container {
-	border: 2px solid red;
+.social-icon {
+  border: 2px solid red;
 }
