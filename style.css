@@ -1,3 +1,12 @@
+h1 {
+	font-family: 'Beth Ellen', serif;
+	font-size: 2em;
+}
+
+.nav-item {
+	font-family: 'Montserrat', serif;
+}
+
 .cicada-logo {
 	height: 100px;
 }
