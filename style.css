@@ -3,6 +3,15 @@ h1 {
 	font-size: 2em;
 }
 
+h5 {
+	font-family: 'Beth Ellen', serif;
+	font-size: 1.5em;
+}
+
+.btn {
+	font-family: 'Montserrat', serif;
+}
+
 .nav-item {
 	font-family: 'Montserrat', serif;
 }
@@ -18,4 +27,9 @@ h1 {
 
 .social-icon {
 	color: black;
+}
+
+.footer-text {
+	font-family: 'Beth Ellen', serif;
+	font-size: 1.4em;
 }
