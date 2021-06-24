@@ -29,7 +29,38 @@ h5 {
 	color: black;
 }
 
+.social-link  {
+  color: black;
+}
+
+a:link { 
+  text-decoration: none; 
+}
+
+
+a:visited { 
+  text-decoration: none; 
+}
+
+
+a:hover { 
+  text-decoration: none; 
+}
+
+
+a:active { 
+  text-decoration: none; 
+}
+
 .footer-text {
 	font-family: 'Beth Ellen', serif;
 	font-size: 1.4em;
+}
+
+.fa-envelope {
+  display: inline;
+}
+
+.fa-instagram {
+  display: inline;
 }
