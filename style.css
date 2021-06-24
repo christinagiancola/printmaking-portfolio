@@ -1,36 +1,63 @@
-:root {
-	--primary: #d7be03;
-	--secondary: #0a1f44;
-	--primary-invert: #fff;
-	--secondary-invert: #fff;
-
-	--gradient-primary: linear-gradient(230deg, #dec71a, #d2ba09);
-	--gradient-secondary: linear-gradient(230deg, #0a1f44, #020024);
-
-	/* DEFAULT COLOR OF TEXTS */
-	--text-primary: #393404;
-
-	/* FOR BUTTONS & INPUTS */
-	--elements-roundness: 10rem;
-
-	--space-between-blocks: 5.3rem;
-	/* for mobiles */
-	--space-between-blocks-small-screens: 3rem;
+h1 {
+	font-family: 'Beth Ellen', serif;
+	font-size: 2em;
 }
 
-body {
-	font-family: 'Bitter', sans-serif;
-	color: var(--text-primary);
+h5 {
+	font-family: 'Beth Ellen', serif;
+	font-size: 1.5em;
 }
 
-.space-between-blocks {
-	padding-top: var(--space-between-blocks-small-screens);
-	padding-bottom: var(--space-between-blocks-small-screens);
+a:link { 
+  text-decoration: none; 
 }
 
-@media (min-width: 992px) {
-	.space-between-blocks {
-		padding-top: var(--space-between-blocks);
-		padding-bottom: var(--space-between-blocks);
-	}
+a:visited { 
+  text-decoration: none; 
+}
+
+a:hover { 
+  text-decoration: none; 
+}
+
+a:active { 
+  text-decoration: none; 
+}
+
+.btn {
+	font-family: 'Montserrat', serif;
+}
+
+.nav-item {
+	font-family: 'Montserrat', serif;
+}
+
+.cicada-logo {
+	height: 100px;
+}
+
+.portfolio-image {
+	max-width: 100%;
+	height: auto;
+}
+
+.social-icon {
+	color: black;
+}
+
+.social-link  {
+  color: black;
+}
+
+.footer-text {
+	font-family: 'Beth Ellen', serif;
+	font-size: 1.4em;
+}
+
+.fa-envelope {
+  display: inline;
+}
+
+.fa-instagram {
+  display: inline;
 }
